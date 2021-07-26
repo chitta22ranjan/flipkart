@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
-        maven "MAVEN 3.9.0"
+        maven "MAVEN 3.6.0"
     }
     environment {
 	registry = "chitta22ranjan/chitta" 
